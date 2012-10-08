@@ -1,2 +1,5 @@
 call setclasspath.bat
-psql.exe -d bas_databene -U user_databene
+SET DATABASE_NAME=%1%
+SET USER_NAME=%2%
+
+psql.exe -d %DATABASE_NAME% -U %USER_NAME%
