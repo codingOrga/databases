@@ -1,4 +1,4 @@
-SET INSTALL_HOME=G:\work\postgresql
+SET INSTALL_HOME=C:\postgresql
 
 SET PATH=C:\WINDOWS;C:\WINDOWS\system32
 SET PATH=%PATH%;%INSTALL_HOME%\base\pgsql\bin
